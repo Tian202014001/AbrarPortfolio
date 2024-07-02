@@ -36,6 +36,9 @@ function Home() {
               challenges. Driven to continuously learn and grow within a
               collaborative environment
             </p>
+            <div>
+              <button className="bg-red-700 text-white rounded-md px-4 py-1 hover:bg-red-800 hover:scale-105"><a href="AA.pdf" download="Abrar_Ahmed_Resume">Resume</a></button>
+            </div>
             <br></br>
             <div className="flex flex-col  md:flex-row justify-between items-center ">
               <div className="space-y-2">
