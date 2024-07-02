@@ -56,7 +56,7 @@ function Portfolio() {
       <div name="Portfolio" className="max-w-screen  mx-auto px-4 md:px-20 my-16">
         <h1 className="font-bold text-3xl mb-5">Projrcts & Publications</h1>
         <span className="underline font-semibold">Featured Project</span>
-        <div className="grid grid-cols-1  md:grid-cols-3 xl:grid-cols-4 gap-3 my-5 ">
+        <div className="grid grid-cols-1  md:grid-cols-3  gap-3 my-5 ">
           {cardItem.map(({ id, logo, name, des }) => (
             <div
               key={id}
